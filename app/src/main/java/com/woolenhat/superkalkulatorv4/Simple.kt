@@ -76,6 +76,13 @@ class Simple : AppCompatActivity() {
             newNumber.setText("")
             operand1 = 0.0
         }
+
+        buttonBck.setOnClickListener {
+            val string = newNumber?.text.toString()
+            if (string.isNotEmpty()) {
+//                newNumber.text = string.dropLast(1)
+            }
+        }
     }
 
     private fun performOperation(value: Double, operation: String) {

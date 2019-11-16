@@ -17,6 +17,15 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonNeg" />
 
     <Button
+        android:id="@+id/buttonBck"
+        android:layout_width="48sp"
+        android:layout_height="wrap_content"
+        android:text="Bck"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonPlus"
+        app:layout_constraintEnd_toEndOf="@+id/buttonClear" />
+
+    <Button
         android:id="@+id/buttonNeg"
         android:layout_width="48sp"
         android:layout_height="wrap_content"

@@ -40,54 +40,51 @@
         android:id="@+id/buttonTan"
         android:layout_width="48sp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="176dp"
+        android:layout_marginStart="56dp"
         android:text="tan"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/buttonNeg"
-        app:layout_constraintTop_toBottomOf="@+id/buttonNeg" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonNeg"
+        app:layout_constraintStart_toStartOf="@+id/buttonNeg" />
 
     <Button
         android:id="@+id/buttonLog"
         android:layout_width="48sp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
         android:text="log"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/buttonMinus"
-        app:layout_constraintTop_toBottomOf="@+id/buttonMinus" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonClear"
+        app:layout_constraintStart_toEndOf="@+id/buttonClear" />
 
     <Button
         android:id="@+id/buttonSqrt"
         android:layout_width="48sp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginStart="8dp"
         android:text="sqr"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/buttonMinus"
-        app:layout_constraintTop_toBottomOf="@+id/buttonMinus" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonSin"
+        app:layout_constraintStart_toEndOf="@+id/buttonSin" />
 
     <Button
         android:id="@+id/buttonPot"
         android:layout_width="48sp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="112dp"
+        android:layout_marginStart="8dp"
         android:text="x^2"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/buttonMinus"
-        app:layout_constraintTop_toBottomOf="@+id/buttonMinus" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonCos"
+        app:layout_constraintStart_toEndOf="@+id/buttonCos" />
 
     <Button
         android:id="@+id/buttonXy"
         android:layout_width="48sp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="168dp"
+        android:layout_marginStart="8dp"
         android:text="x^y"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/buttonMinus"
-        app:layout_constraintTop_toBottomOf="@+id/buttonMinus" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonTan"
+        app:layout_constraintStart_toEndOf="@+id/buttonTan" />
 
     <EditText
         android:id="@+id/result"
